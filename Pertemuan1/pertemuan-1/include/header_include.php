@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Latihan Mandiri</tilte>
+        <title>Latihan Mandiri</title>
     </head>
     <body>
         <div class="header">
