@@ -2,7 +2,7 @@
 session_start();
 // cek username
 if(isset($_SESSION['username'])){
-    header('Location:admin.php');
+    header('Location:admin1.php');
 }
 
 ?>
@@ -40,7 +40,7 @@ if(isset($_SESSION['username'])){
               <button type="button" class="btn-close btn-light" data-bs-dismiss="modal" aria-label="Close"></button>
                 <div class="myform bg-dark">
                 <h1 class="text-center">Login</h1>
-                <form action="index_no_db.png" method="POST">
+                <form action="index.php" method="POST">
                     <div class="mb-3 mt-4">
                         <label for="username" class="form-label">Username</label>
                         <input name="username" type="text" class="form-control" id="username">
@@ -49,7 +49,7 @@ if(isset($_SESSION['username'])){
                         <label for="password" class="form-label">Password</label>
                         <input name="password" type="password" class="form-control" id="password">
                     </div>
-                    <button type="submit" name="submit" class="btn btn-light mt-3">LOGIN</button>
+                    <button type="submit" name="submit" class="btn btn-light mt-3" value="login">LOGIN</button>
                         <p>Pengguna Baru? <a href="#">Daftar Sekarang</a></p>
                         </form>
                     </div>
