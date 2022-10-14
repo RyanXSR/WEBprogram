@@ -4,17 +4,6 @@
 //    header('Location:login-page.php');
 //}
 ?>
-<!-- <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>admin page</title>
-    </head>
-    <body>
-        <h1><p align=center>Selamat datang <?= $_SESSION['username']; ?>!!!</p></h1>
-        <p align=center>Kamu berada di page <b>Admin</b></p>
-        <br><h3><p align=center><a href='logout.php'>Logout</a></p></h3>
-    </body>
-</html> -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -71,10 +60,8 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" aria-current="page" href='logout.php'>
-                            <div width="40" height="40">
-                                Logout
-                            </div>
-                            <p></p>
+                    <img src="img/logout-removebg-preview.png" alt="" width="37" height="40"
+                            class="d-inline-block align-text-top">
                     </a>
                 </li>
             </ul>

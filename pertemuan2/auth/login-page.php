@@ -2,7 +2,7 @@
 session_start();
 // cek username
 if(isset($_SESSION['username'])){
-    header('Location:admin1.php');
+    header('Location:store.php');
 }
 
 ?>

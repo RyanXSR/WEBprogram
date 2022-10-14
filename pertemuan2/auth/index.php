@@ -13,7 +13,7 @@ if(isset($_POST['submit'])){
 
     if($username == $database['username'] && $password == $database['password']){
         $_SESSION['username'] = $username;
-        header("location:admin1.php");
+        header("location:store.php");
     }else{
         echo '<script> alert("Username atau Password salah!");
         window.location="login-page.php";</script>';
