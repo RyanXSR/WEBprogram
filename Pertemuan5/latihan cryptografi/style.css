@@ -63,3 +63,13 @@
   p a:hover {
     color: #fff;
   }
+  .myform1 {
+    padding: 2em;
+    max-width: 100%;
+    color: #fff;
+    box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+    @media (max-width: 576px) {
+      max-width: 90%;
+      margin: 0 auto;
+    }
+  }
